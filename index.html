@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Computing the Area of a trapezoid</title>
+    <style>
+        body {
+             background-color: turquoise;
+        }
+        
+        
+
+        h1 {
+              text-align: center;
+               background-color: black;
+               padding: 20px 0;
+               color:white;
+        }
+
+        form {
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <h1>Area of a Trapezoid</h1>
+    <form>
+        <input id="num1" type="number" placeholder="Enter your b1"><br>
+        <input id="num2" type="number" placeholder="Enter your b2"><br>
+        <input id="num3" type="number" placeholder="Enter your height"><br>
+         <input type="button" py-click="compute_area" value="Area">
+    </form>
+
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
