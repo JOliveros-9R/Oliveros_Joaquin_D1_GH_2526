@@ -8,7 +8,7 @@ def compute_area(e):
    height = float(document.getElementById('num3').value)
    area = b1 + b2 * height / 2
 
-
    display(f'The area of a trapezoid is {area:.2f}')
+
 
 
